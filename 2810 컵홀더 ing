@@ -1,0 +1,9 @@
+N = int(input())
+seat = input()
+count = 1
+for i in range(N) :
+    if seat[i] == 'C' :
+        count += 1
+    else :
+        count += 0.5
+print(count)
